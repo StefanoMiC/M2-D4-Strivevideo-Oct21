@@ -1,0 +1,134 @@
+body {
+  background-color: #0f171e;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav.navbar {
+  background-color: #0f171e;
+  background-image: -webkit-linear-gradient(
+    top,
+    #1b2530,
+    rgba(27, 37, 48, 0.85)
+  );
+  background-image: -o-linear-gradient(
+    top,
+    #1b2530 0,
+    rgba(27, 37, 48, 0.85) 100%
+  );
+  background-image: linear-gradient(180deg, #1b2530 0, rgba(27, 37, 48, 0.85));
+}
+
+/* DROPDOWN OVERRIDES */
+
+nav .dropdown-menu {
+  background-color: #252e39;
+  padding: 0;
+}
+
+nav .dropdown-item {
+  color: #f2f4f6e6;
+  padding: 14px 48px 14px 16px;
+  border-bottom: 1px solid #303c4a;
+}
+
+nav li:last-child .dropdown-item {
+  border: none;
+}
+
+nav .btn-group .dropdown-menu .dropdown-item:last-child {
+  border-bottom: none;
+}
+
+nav .dropdown-item:focus,
+nav .dropdown-item:hover {
+  color: white;
+  background-color: transparent;
+}
+/* END DROPDOWN OVERRIDES */
+.navbar .navbar-nav .nav-link {
+  padding: 0;
+  margin: 8px;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: rgba(242, 244, 246, 0.9);
+}
+
+.navbar-dark .navbar-nav .active > .nav-link {
+  border-bottom: 1px solid white;
+}
+.btn-ghost,
+.btn-ghost:hover {
+  color: rgb(255 255 255 / 0.5);
+}
+.user-name {
+  color: rgb(255 255 255 / 0.5);
+  max-width: 48px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  vertical-align: middle;
+  font-size: 0.9rem;
+}
+
+.user-name:hover {
+  color: white;
+}
+
+.lens-icon {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.lens-icon:hover {
+  opacity: 1;
+}
+
+.carousel-indicators li {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+}
+.prime-logo {
+  position: relative;
+  bottom: 3px;
+}
+.prime-badge {
+  position: absolute;
+  top: 0;
+  left: 0.25rem;
+}
+
+/* FOOTER */
+a {
+  color: #01a3db;
+}
+
+a:hover {
+  color: #14b5eb;
+}
+
+footer {
+  text-align: center;
+}
+
+footer .footer-logo {
+  display: inline-block;
+  width: 120px;
+  height: 48px;
+  background-image: url("../logo/strivevideo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+footer ul:last-of-type {
+  color: rgba(255, 255, 255, 0.45);
+}
